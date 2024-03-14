@@ -1,0 +1,196 @@
+@font-face {
+    font-family: london;
+    src: url(OldLondon.ttf);
+
+  }
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  #hi {
+    display: flex;
+    justify-content: center;
+  }
+.hi {
+    font-family: london;
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    top: 8%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}
+#header {
+    height: 50px;
+    width: 1050px;
+    position: inherit;
+    margin-top: 110px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+#parent {
+    display: flex;
+    justify-content: center;
+}
+.headerText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.4px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 15px;
+    height: fit-content;
+    display: flex;
+}
+.headerText:hover {
+    transform: scale(0.95);
+    transition: transform 330ms ease-in-out;
+}
+li {
+    list-style-type: none;
+}
+.liContainer {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    justify-content: space-evenly;
+    display: flex;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+svg {
+    color: black;
+    position: absolute;
+    left: 1050px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    height: fit-content;
+}
+svg:hover {
+    transform: scale(0.95);
+    transition: transform 330ms ease-in-out;
+    cursor: pointer;
+}
+/* Apply a simple and clean font */
+/* Style the header and navigation menu */
+
+.box {
+    height: 400px;
+    width: 1050px;
+    position: absolute;
+    top: 300px;
+    /* border: solid 5px black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.box1, .box2, .box3 {
+    height: 400px;
+    width: 300px;
+}
+.textColumn1 {
+    height: 100px;
+    width: 300px;
+    /* border: 2px solid black; */
+    position: relative;
+    right: 4px;
+    top: 300px;
+}
+.textColumn2 {
+    height: 100px;
+    width: 296px;
+    position: relative;
+    top: 300px;
+}
+.textColumn3 {
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 300px;
+}
+.imgColumn1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: -2px;
+    background-color: aliceblue;
+}
+.imgColumn2{
+    height: 300px;
+    width: 296px;
+    border: 2px solid black;
+    position: absolute;
+    background-color: aliceblue;
+}
+.imgColumn3{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: -2px;
+    background-color: aliceblue;
+}
+.img1 {
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.textStyles {
+    font-size: 24px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+a {
+    color:black;
+}
+.pasta {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    user-select: none;
+}
+.img {
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.f1parent {
+    user-select: none;
+}
+.f1 {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    user-select: none;
+}
+html {
+    height: fit-content;
+}
+embed {
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    top: 800px;
+}
